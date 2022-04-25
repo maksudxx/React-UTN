@@ -1,11 +1,11 @@
 import "./App.css";
-import { HelloWorld } from "./components/Title/HelloWorld";
+import { Form } from "./components/Form/Form";
 
 function App() {
   return (
     <div className="App">
-      {/* punto 1 */}
-      <HelloWorld />
+      {/* punto 2 */}
+      <Form />
     </div>
   );
 }
