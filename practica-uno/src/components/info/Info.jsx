@@ -3,7 +3,7 @@ import styles from "./Info.module.css";
 
 export const Info = () => {
   return (
-    <div className={styles.container}>
+    <div id="info" className={styles.container}>
       <h1 className={styles.title}>BENEFICIOS DE ENTRENAR CON PESAS</h1>
       <h4 className={styles.subtitle}>25 Abr, 2022 | TIPS-CONSEJOS </h4>
       <img

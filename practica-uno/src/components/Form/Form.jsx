@@ -1,7 +1,7 @@
 import styles from "./Form.module.css";
 export const Form = () => {
   return (
-    <div className={styles.container}>
+    <div id="form"className={styles.container}>
         <h1 className={styles.title}>FORM</h1>
       <div className={styles.formContainer}>
         <input type="text" placeholder="name..." className={styles.input} />

@@ -4,7 +4,7 @@ export const Counter = () => {
   const [count, setCount] = useState(0);
 
   return (
-    <div className={styles.container}>
+    <div id="counter" className={styles.container}>
       <h1 className={styles.title}>COUNTER</h1>
       <p className={styles.counter}>El valor del contador es: {count}</p>
 
