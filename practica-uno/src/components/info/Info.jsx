@@ -1,3 +1,4 @@
+import { ButtonBack } from "../buttonBack/ButtonBack";
 import styles from "./Info.module.css";
 
 
@@ -22,6 +23,7 @@ export const Info = () => {
         la técnica de cada ejercicio correctamente, si no realizamos una
         correcta ejecución de los movimiento podremos llegar a lesionarnos.
       </p>
+      <ButtonBack />
       <br /> <br />
     </div>
   );

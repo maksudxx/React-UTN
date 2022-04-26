@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { ButtonBack } from "../buttonBack/ButtonBack";
 import styles from "./Counter.module.css";
 export const Counter = () => {
   const [count, setCount] = useState(0);
@@ -22,6 +23,7 @@ export const Counter = () => {
           +
         </button>
       </div>
+      <ButtonBack />
     </div>
   );
 };

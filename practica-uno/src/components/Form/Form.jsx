@@ -1,3 +1,4 @@
+import { ButtonBack } from "../buttonBack/ButtonBack";
 import styles from "./Form.module.css";
 export const Form = () => {
   return (
@@ -15,6 +16,7 @@ export const Form = () => {
         </select>
         <input type="submit" value="Submit" className={styles.button}/>
       </div>
+      <ButtonBack />
       <br /><br /><br />
     </div>
   );
