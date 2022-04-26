@@ -4,7 +4,7 @@ export const Navbar = () => {
     alert("Hello World!");
   }
   return (
-    <header className={styles.container}>
+    <header id="navbar" className={styles.container}>
       <h2 className={styles.title}>PRACTICA 1</h2>
       <ul className={styles.containerLink}>
         <li className={styles.li}>
