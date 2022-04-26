@@ -1,15 +1,19 @@
 .container {
   margin-top: 50px;
   height: 300px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .title {
   color: #ff9422;
   margin-bottom: 20px;
 }
 
-.counter{
-    font-size: 1.5rem;
-    font-weight: bold;
+.counter {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .button {
