@@ -30,5 +30,6 @@
     color: #000;
     font-weight: bold;
     border-bottom: 3px solid ;
-    font-size: 1.35rem
+    font-size: 1.35rem;
+    cursor: pointer;
 }
