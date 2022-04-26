@@ -15,6 +15,7 @@ export const Form = () => {
         </select>
         <input type="submit" value="Submit" className={styles.button}/>
       </div>
+      <br /><br /><br />
     </div>
   );
 };
