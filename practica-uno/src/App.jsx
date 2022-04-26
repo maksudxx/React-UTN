@@ -9,6 +9,7 @@ function App() {
       <Form />
       <hr />
       <Counter />
+      <hr />
     </div>
   );
 }
